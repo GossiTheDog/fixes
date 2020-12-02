@@ -30,6 +30,10 @@ This script is a fix for RpcEptMapper and Dnscache service permission issue, all
 patch.bat creates the Performance subkey, which can be used for elevation of privilege, and then revokes User access to it.
 This way a non-administrator user cannot create the keys to load a malicious DLL.
 
+# Errors
+
+Error 1337 - if you have non-English language Windows, you need to change "Users" to the name of your local Users group in Windows.
+
 # Disclaimers
 
 SubInAcl.exe is an official Microsoft tool.  This patch is not an official Microsoft tool.
