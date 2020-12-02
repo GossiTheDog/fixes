@@ -1,14 +1,14 @@
-# RcpEptMapper elevation of privilege patch
+# RpcEptMapper elevation of privilege patch
 
 itm4n found a great vulnerability in Windows 7 and 2008 where authenticated (but non-administrator) local users can get SYSTEM rights:
 
 https://itm4n.github.io/windows-registry-rpceptmapper-eop/
 
-This is caused by Users having ability to create subkeys in two Windows services, although RcpEptMapper is really your route to admin.
+This is caused by Users having ability to create subkeys in two Windows services, although RpcEptMapper is really your route to admin.
 
 # Patch.bat
 
-This script is a fix for RcpEptMapper and Dnscache service permission issue, allowing elevation of privilege on Windows 7 and Server 2008/2008 R2.
+This script is a fix for RpcEptMapper and Dnscache service permission issue, allowing elevation of privilege on Windows 7 and Server 2008/2008 R2.
 
 
 Example deployment scenarioes:
