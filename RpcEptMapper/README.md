@@ -4,14 +4,13 @@ itm4n found a great vulnerability in Windows 7 and 2008 where authenticated (but
 
 https://itm4n.github.io/windows-registry-rpceptmapper-eop/
 
-This is caused by Users having ability to create subkeys in two Windows services, although RpcEptMapper is really your route to admin.
+This is caused by (non-admin) Users having ability to create subkeys in two Windows services.
 
 # Patch.bat
 
 This script is a fix for RpcEptMapper and Dnscache service permission issue, allowing elevation of privilege on Windows 7 and Server 2008/2008 R2.
 
-
-Example deployment scenarioes:
+# Example deployment situations
 
 1. Easy
 - Download all files and double click patch.bat
