@@ -8,8 +8,8 @@ This is caused by Users having ability to create subkeys in two Windows services
 
 # Patch.bat
 
-This script is a fix for RcpEptMapper and Dnscache service permission issue, allowing elevation of privilege on Windows 7 and Server 2008/2008 R2
-Make sure you have subinacl.exe (in this repository) in same location as batch file.  
+This script is a fix for RcpEptMapper and Dnscache service permission issue, allowing elevation of privilege on Windows 7 and Server 2008/2008 R2.
+
 
 Example deployment scenarioes:
 
@@ -22,7 +22,9 @@ Example deployment scenarioes:
 
 # Requirements
 
-This works on any version of Windows 7 and/or Windows Server 2008, including without extended security updates.
+- This works on any version of Windows 7 and/or Windows Server 2008, including without extended security updates.
+
+- Make sure you have subinacl.exe (in this repository) in same location as batch file.  
 
 # Logic
 
