@@ -17,8 +17,8 @@ Example deployment scenarioes:
 - Download all files and double click patch.bat
 
 2. Enterprise
-- drop files in SYSVOL file share, modify subinacl.exe location (e.g. \\domain\sysvol\subinacl.exe) in patch.bat
-- call patch.bat from Computer login script in GPO (or psexec \\*)
+- drop files in SYSVOL file share, modify subinacl.exe location (e.g. \\\domain\sysvol\subinacl.exe) in patch.bat
+- call patch.bat from Computer login script in GPO (or psexec \\\*)
 
 # Requirements
 
