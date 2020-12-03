@@ -7,7 +7,7 @@
 @rem -- call from Computer login script in GPO (or psexec \\*)
 
 reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcEptMapper\Performance
-subinacl.exe /subkeyreg HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcEptMapper\Performance /revoke=Users
+subinacl.exe /subkeyreg HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcEptMapper\Performance /revoke=S-1-5-32-545
 
 reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Performance
-subinacl.exe /subkeyreg HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Performance /revoke=Users
+subinacl.exe /subkeyreg HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Performance /revoke=S-1-5-32-545
